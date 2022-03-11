@@ -1,0 +1,125 @@
+
+
+/* Add bg image to pages
+body {
+  background-image: url();
+} */
+
+body {
+  font-family: 'BhuTuka Expanded One', cursive;
+  }
+
+  /* container goes hereish */
+
+/*  */
+
+.logo {
+  display: flex;
+  margin: auto;
+  width: 8rem;
+  height: 8rem;
+  }
+
+/*  */
+
+.navbar {
+  overflow: hidden;
+  /* height: 30px; */
+  background-color: #eeeee;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* style links inside navigation bar */
+
+.navbar a {
+  color: green;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+}
+
+/* change color of links on hover */
+.navbar a:hover {
+  background-color: pink;
+  cursor: crosshair;
+}
+
+/* move login link to the right
+.navbar a.login {
+  float: right;
+}
+
+*/
+
+/*  */
+
+.navbar a.current-page {
+  color: purple;
+}
+
+/*  */
+
+.main {
+  margin-top: 45px;
+}
+
+/*  */
+
+button {
+  background color: green;
+  border: 2px solid black;
+  color: pink;
+  padding: 10px;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+
+/*  */
+
+button: hover {
+  background-color:white;
+  color: black;
+  cursor: crosshair;
+}
+
+
+/* trying to align images
+.left {
+  position: fixed;
+  float: left;
+  width: 250px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.right {
+  position: fixed;
+  float: right;
+  width: 250px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+*/
+
+/* images at top  */
+
+
+/*
+
+Code Credits:
+
+Photo credits:
+
+  logo color wheel:
+  norway mountain: https://pixabay.com/photos/norway-mountains-nature-mountain-4970080/
+  valleyofthetemples: https://pixabay.com/photos/the-valley-of-the-temples-agrigento-3662838/
+  help handshake: https://pixabay.com/illustrations/handshake-regard-cooperate-connect-2009195/
+  about:
+  login:
+
+  */
