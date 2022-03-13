@@ -86,6 +86,14 @@ button: hover {
   cursor: crosshair;
 }
 
+footer {
+  text-align: right;
+}
+]
+
+table {
+  
+}
 
 /* trying to align images
 .left {
