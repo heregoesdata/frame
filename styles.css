@@ -71,9 +71,13 @@ body {
 }
 
 img {
+  justify-content: center;
   width: 50%;
   height: auto;
-}
+  align-content: stretch;
+  left:40%;
+  right:40%;
+  }
 
 .button-main {
   margin-bottom: 45px;
@@ -81,7 +85,7 @@ img {
 /*  */
 
 button {
-  background color: green;
+  background-color: green;
   border: 2px solid black;
   color: pink;
   padding: 10px;
@@ -89,6 +93,9 @@ button {
   border-radius: 10px;
   transition-duration: 0.2s;
   position: fixed;
+  bottom: 0px;
+  left:40%;
+  right:40%;
   }
 
 /*  */
@@ -109,13 +116,6 @@ footer {
   border: 3px solid green;
 }
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 
 .flex-container {
   display: flex;
@@ -125,6 +125,12 @@ footer {
 
 table {
 
+}
+
+th, td {
+  border: 1px solid;
+  padding: 15px;
+  text-align: left;
 }
 
 /* trying to align images*/
