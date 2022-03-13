@@ -1,10 +1,4 @@
 
-
-/* Add bg image to pages
-body {
-  background-image: url();
-} */
-
 body {
   font-family: 'BhuTuka Expanded One', cursive;
   color: white;
@@ -14,9 +8,6 @@ body {
   background-size: cover;
   }
 
-  /* container goes hereish */
-
-/*  */
 
 .logo {
   display: flex;
@@ -24,8 +15,6 @@ body {
   width: 8rem;
   height: 8rem;
   }
-
-/*  */
 
 .navbar {
   overflow: hidden;
@@ -51,20 +40,9 @@ body {
   cursor: crosshair;
 }
 
-/* move login link to the right
-.navbar a.login {
-  float: right;
-}
-
-*/
-
-/*  */
-
 .navbar a.current-page {
   color: purple;
 }
-
-/*  */
 
 .main {
   margin-top: 45px;
@@ -82,8 +60,8 @@ img {
 .button-main {
   margin-bottom: 45px;
 }
-/*  */
 
+/* BUTton stuff */
 button {
   background-color: green;
   border: 2px solid black;
@@ -97,8 +75,6 @@ button {
   left:40%;
   right:40%;
   }
-
-/*  */
 
 button: hover {
   background-color:white;
@@ -122,33 +98,22 @@ footer {
   flex-direction: row;
 }
 
-
-table {
-
-}
+ /* table styling */
 
 th, td {
   border: 1px solid;
   padding: 15px;
   text-align: left;
+
 }
 
-/* trying to align images*/
-
-/* images at top  */
-
-
 /*
-
-Code Credits:
+Credits:
 
 Photo credits:
 
-  logo color wheel:
-  norway mountain: https://pixabay.com/photos/norway-mountains-nature-mountain-4970080/
-  valleyofthetemples: https://pixabay.com/photos/the-valley-of-the-temples-agrigento-3662838/
-  help handshake: https://pixabay.com/illustrations/handshake-regard-cooperate-connect-2009195/
-  about:
-  login:
+  Logo color wheel: https://superawesomevectors.com/free-vector-color-wheel/
+  Favicon: https://www.freevector.com/vector/handshake-logo
+  All other Art images by Liam Chiarelli (website creator)
 
-  */
+*/
