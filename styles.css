@@ -69,23 +69,27 @@ button {
   padding: 10px;
   font-size: 30px;
   border-radius: 10px;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
   position: fixed;
   bottom: 0px;
   left:40%;
   right:40%;
   }
 
-button: hover {
-  background-color:white;
-  color: black;
-  cursor: crosshair;
+.button {
+  transition-duration: inherit;
+}
+
+.button a:hover {
+  background-color: #4CAF50;
 }
 
 footer {
   text-align: right;
   height: 65px;
 }
+
+
 
 .container {
   height: auto;
@@ -96,7 +100,7 @@ footer {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
  /* table styling */
@@ -115,8 +119,13 @@ th, td {
   }
 
 tr:hover {
-  background-color: coral;
+  color: black;
+  background-color: pink;
   }
+
+a:hover {
+  cursor: crosshair;
+}
 
 
 
