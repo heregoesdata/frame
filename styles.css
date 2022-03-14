@@ -65,30 +65,45 @@ img {
 button {
   background-color: green;
   border: 2px solid black;
-  color: pink;
+  color: orange;
   padding: 10px;
   font-size: 30px;
   border-radius: 10px;
-  transition-duration: 0.4s;
-  position: fixed;
+  position: relative;
   bottom: 0px;
   left:40%;
   right:40%;
   }
 
 .button {
-  transition-duration: inherit;
+  transition-duration: 0.4s;
 }
 
 .button:hover {
   color: red;
-  background-color: #4CAF50;
+  background-color: #eeeeee;
   cursor: help;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 footer {
   text-align: right;
   height: 65px;
+}
+
+.bouncy{
+ animation:bouncy 5s infinite linear;
+ position:relative;
+}
+
+@keyframes bouncy {
+ 0%{top:0em}
+ 40%{top:0em}
+ 43%{top:-0.9em}
+ 46%{top:0em}
+ 48%{top:-0.4em}
+ 50%{top:0em}
+ 100%{top:0em;}
 }
 
 /* Flex Box Stuff */
