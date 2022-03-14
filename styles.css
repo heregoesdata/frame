@@ -53,6 +53,7 @@ img {
   width: 50%;
   height: auto;
   align-content: stretch;
+  border-radius: 2%;
   left:40%;
   right:40%;
   }
