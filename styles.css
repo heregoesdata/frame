@@ -80,8 +80,10 @@ button {
   transition-duration: inherit;
 }
 
-.button a:hover {
+.button:hover {
+  color: red;
   background-color: #4CAF50;
+  cursor: help;
 }
 
 footer {
