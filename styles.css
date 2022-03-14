@@ -101,15 +101,23 @@ footer {
 
  /* table styling */
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  }
+
 th, td {
   border: 1px solid;
   padding: 15px;
   text-align: left;
   font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  }
 
-}
+tr:hover {background-color: coral;}  
 
-/*
+
+
 Credits:
 
 Photo credits:
