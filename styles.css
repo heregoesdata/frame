@@ -89,7 +89,7 @@ footer {
   height: 65px;
 }
 
-
+/* Flex Box Stuff */
 
 .container {
   height: auto;
@@ -97,10 +97,20 @@ footer {
   border: 3px solid green;
 }
 
-
 .flex-container {
   display: flex;
   flex-direction: column;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box img {
+  width: 100%;
+  height:auto;
 }
 
  /* table styling */
