@@ -1,38 +1,38 @@
-
 body {
+  font-size: 20px;
   font-family: 'BhuTuka Expanded One', cursive;
   color: lightBlue;
   background-image: url('image/fruitportalresize.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  }
+}
 
 .logo {
   display: flex;
   margin: auto;
   width: 8rem;
   height: 8rem;
-  }
+}
 
 .navbar {
+  font-size: 25px;
   overflow: hidden;
   /* height: 30px; */
   background-color: #eeeee;
   position: fixed;
   width: 100%;
   top: 0;
-  }
+}
 
 /* style links inside navigation bar */
-
 .navbar a {
   font-weight: bold;
-  color: green;
+  color: lightGreen;
   text-decoration: none;
   font-size: 20px;
   padding: 12px;
-  border:none;
+  border: none;
   border-radius: 15px;
 }
 
@@ -41,7 +41,7 @@ body {
   color: red;
   background-color: #eeeeee;
   cursor: crosshair;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar a.current-page {
@@ -54,30 +54,30 @@ body {
 
 img {
   justify-content: center;
-  width: 95%;
+  width: 100%;
   height: auto;
   align-content: stretch;
   border-radius: 2%;
-  left:40%;
-  right:40%;
-  }
-
-
+  left: 40%;
+  right: 40%;
+}
 
 /* Button stuff */
+
 button {
   text-shadow: 1px 5px 5px;
   background-color: green;
   border: 2px solid black;
   color: orange;
   padding: 10px;
-  font-size: 30px;
+  font-size: 35px;
   border-radius: 10px;
   position: fixed;
-  bottom: 0px;
-  left:40%;
-  right:40%;
-  }
+  bottom: 0%;
+  left: 40%;
+  right: 40%;
+  min-width: 60px;
+}
 
 .button {
   font-size: 15px;
@@ -88,66 +88,59 @@ button {
   padding: 10px;
   font-size: 15px;
   border-radius: 10px;
+  cursor: crosshair;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.button-main {
-  margin-bottom: 45px;
-}
 
 .button:hover {
   color: red;
   background-color: #eeeeee;
   cursor: crosshair;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 button:hover {
   color: red;
   background-color: #eeeeee;
   cursor: crosshair;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
     text-decoration: none;
     color: initial;
-}
-
-  /* table styling */
-
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    border-radius:5%;
+    box-shadow: initial;
   }
 
-  th, td {
-    border: 1px solid;
-    padding: 15px;
-    text-align: left;
-    font-weight: bold;
-    border-bottom: 1px solid #ddd;
+  /* Table Stuff */
+
+th {
+  background-color: lightGreen;
   }
 
-  tr:hover {
-    color: black;
-    background-color: pink;
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 5px solid #ddd;
   }
 
-  a:hover {
+  /* Link Styling */
+a:hover {
     cursor: crosshair;
   }
 
-  footer {
+  /* Footer */
+footer {
+    font-size: 25px;
     color: black;
     height: 65px;
-    align-items: right;
-  }
+    position: fixed
+    }
 
-/* Credits:
+  /* Credits:
 
   Code Credits::
     https://w3schools.com
