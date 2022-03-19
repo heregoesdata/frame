@@ -62,9 +62,7 @@ img {
   right:40%;
   }
 
-.button-main {
-  margin-bottom: 45px;
-}
+
 
 /* Button stuff */
 button {
@@ -90,6 +88,10 @@ button {
   padding: 10px;
   font-size: 15px;
   border-radius: 10px;
+}
+
+.button-main {
+  margin-bottom: 45px;
 }
 
 .button:hover {
@@ -154,6 +156,7 @@ a.button {
     Logo color wheel: https://superawesomevectors.com/free-vector-color-wheel/
 
   Favicon: https://www.freevector.com/vector/handshake-logo
-  All other Art images and Coding by Liam Chiarelli (website creator/"Webmaster")
+
+  All other Art images and Coding by Liam C (website creator/"Webmaster")
 
 */
