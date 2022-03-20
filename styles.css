@@ -15,11 +15,19 @@ body {
   height: 8rem;
 }
 
+<!-- Navbar styling -->
+nav {
+  background-color: black;
+  opacity: 0.5;
+}
+
 .navbar {
   font-size: 25px;
   overflow: hidden;
   /* height: 30px; */
   background-color: #eeeee;
+  border-bottom-right-radius: 2%;
+  opacity: 0.6;
   position: fixed;
   width: 100%;
   top: 0;
@@ -52,6 +60,16 @@ body {
   margin-top: 45px;
 }
 
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
 img {
   justify-content: center;
   width: 100%;
@@ -69,14 +87,14 @@ button {
   background-color: green;
   border: 2px solid black;
   color: orange;
+  opacity: 0.8;
   padding: 10px;
   font-size: 35px;
   border-radius: 10px;
   position: fixed;
-  bottom: 0%;
+  bottom: 65%;
   left: 40%;
   right: 40%;
-  min-width: 60px;
 }
 
 .button {
@@ -115,6 +133,20 @@ a.button {
     box-shadow: initial;
   }
 
+.textFloat {
+  text-shadow: 1px 5px 5px;
+  background-color: green;
+  border: 2px solid black;
+  color: orange;
+  opacity: 0.8;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 10px;
+  position: float;
+  left: 50%;
+  right: 50%;
+}
+
   /* Table Stuff */
 
 th {
@@ -130,6 +162,9 @@ th, td {
   /* Link Styling */
 a:hover {
     cursor: crosshair;
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
   }
 
   /* Footer */
@@ -137,9 +172,14 @@ footer {
     font-size: 25px;
     color: black;
     height: 65px;
-    position: fixed
-    }
+    position: static;
+    bottom: 0%;
+    top: auto;
+  }
 
+footer:hover {
+    opacity: 1.0;
+}
   /* Credits:
 
   Code Credits::
